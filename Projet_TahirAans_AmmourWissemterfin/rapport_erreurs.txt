@@ -1,0 +1,5 @@
+Fichier permettant de résumer les différentes erreurs rencontrées lors de compilations des exercices.
+
+-compute_winner : donne une clé qui n'est pas dans la liste des candidats
+-compute proof_of_work : cause trop de perte de mémoire
+-create_block : segmentation fault dû au block_to_str qui empeche de tester, et donc de tester les autres fonctions

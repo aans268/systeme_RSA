@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/opt/openssl@3/lib/pkgconfig",
+                "/usr/local/opt/openssl@3/lib",
+                "/usr/local/opt/openssl@3/include"
+            ],
+            "defines": [
+                "{",
+                "    \"configurations\": [",
+                "        {",
+                "            \"name\": \"Linux\",",
+                "            \"includePath\": [",
+                "                \"${workspaceFolder}/**\",",
+                "                \"/usr/include/**\",",
+                "                \"/usr/lib/x86_64-linux-gnu/**\"",
+                "            ],",
+                "            \"defines\": [],",
+                "            \"compilerPath\": \"/usr/bin/g++\",",
+                "            \"cStandard\": \"gnu17\",",
+                "            \"cppStandard\": \"gnu++17\",",
+                "            \"intelliSenseMode\": \"gcc-x64\"",
+                "        }",
+                "    ],",
+                "    \"version\": 4",
+                "}",
+                "+0"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/gcc-11",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-x64",
+            "compileCommands": ""
+        }
+    ],
+    "version": 4
+}
